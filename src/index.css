@@ -6,13 +6,24 @@
   justify-content: space-between;
 }
 
+button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button img {
+  width: 20px;
+  height: 20px;
+}
+
 .header div {
   display: flex;
   align-items: center;
 }
 
 .header div * {
-  margin: 0 1em;
+  margin: 0 5px;
 }
 
 .hero {
